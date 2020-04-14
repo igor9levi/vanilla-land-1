@@ -1,0 +1,30 @@
+{
+  "name": "vanilla-land-1",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor9levi/vanilla-land-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igor9levi/vanilla-land-1/issues"
+  },
+  "homepage": "https://github.com/igor9levi/vanilla-land-1#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^4.2.0",
+    "nodemon": "^2.0.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
