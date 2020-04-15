@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
-    console.log('onload event')
-    // init Router
+window.addEventListener('load', () => {
+  console.log('onload event');
+  // init Routers
 });

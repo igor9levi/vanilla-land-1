@@ -9,7 +9,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     port: 5432
-},
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js'
@@ -17,6 +17,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       hash: true,
+      title: 'Vanilla Land',
       template: `${path.resolve(__dirname)}/index.html`,
       filename: `${path.resolve(__dirname, 'dist')}/index.html`
     })
